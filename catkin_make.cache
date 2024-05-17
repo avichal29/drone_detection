@@ -1,0 +1,2 @@
+yolo_detection
+-DCATKIN_DEVEL_PREFIX=/home/avichal/ros_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/avichal/ros_workspace/install -G Unix Makefiles
