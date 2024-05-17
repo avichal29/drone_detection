@@ -1,0 +1,10 @@
+<launch>
+    <!-- Launch Gazebo with desired world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="/home/avichal/ros_workspace/src/yolo_detection/world/custom.world"/>  <!-- Replace 'my_world.world' with the actual name of your world file -->
+    </include>
+
+    <!-- Start YOLOv5 detection node -->
+    <node pkg="yolo_detection" type="/home/avichal/final_yolo/yolov5/detect.py" name="yolov5_detection_node"/>  <!-- Replace 'yolov5_detection_node.py' with the actual name of your YOLOv5 detection node script -->
+</launch>
+

@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="cv_camera" type="cv_camera_node" name="cv_camera" output="screen">
+    <param name="device_id" type="int" value="0"/> <!-- Adjust device ID as needed -->
+    <param name="image_width" type="int" value="640"/> <!-- Adjust image width as needed -->
+    <param name="image_height" type="int" value="480"/> <!-- Adjust image height as needed -->
+    <param name="framerate" type="double" value="30.0"/> <!-- Adjust framerate as needed -->
+  </node>
+</launch>
+
